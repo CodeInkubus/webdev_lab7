@@ -1,5 +1,31 @@
 
 td, th {
-	border: 1px solid;
+	border: 1px solid #A57B0A;;
+  padding: 10px;
+  
   }
   
+table{
+  border: 3px solid #A57B0A;
+  border-collapse: collapse;
+  font-size: 1.25em;
+}
+th{
+  background-color: #FEBD14;
+}
+td{
+  background-color: #FEDA75;
+  text-align: center;
+}
+summary{
+  font-size: 1.5em;
+}
+p{
+  padding: 0 10%;
+}
+tr td:first-of-type{
+  text-align: left;
+}
+tr:nth-of-type(odd) td{
+  background-color: #FECE43;
+}
